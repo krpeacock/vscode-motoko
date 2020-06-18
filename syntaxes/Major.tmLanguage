@@ -64,7 +64,7 @@
 			<key>comment</key>
 			<string>access-level-modifier</string>
 			<key>match</key>
-			<string>\b(open|public|internal|fileprivate|private)\b(?:\(set\))?</string>
+			<string>\b(public|private|flexible|stable)\b(?:\(set\))?</string>
 			<key>name</key>
 			<string>keyword.other.access-level-modifier.swift</string>
 		</dict>
@@ -749,7 +749,7 @@
 					<key>comment</key>
 					<string>declaration keyword</string>
 					<key>match</key>
-					<string>\b(async|actor|and|class|func|import|let|module|not|or)\b</string>
+					<string>\b(async|actor|class|func|import|let|module)\b</string>
 					<key>name</key>
 					<string>keyword.declaration.swift</string>
 				</dict>
@@ -765,7 +765,7 @@
 					<key>comment</key>
 					<string>other keyword</string>
 					<key>match</key>
-					<string>\b(associativity|didSet|get|infix|inout|left|mutating|none|nonmutating|operator|override|postfix|precedence|prefix|right|set|unowned((un)?safe)?|weak|willSet)\b</string>
+					<string>\b(and|or|not|ignore)\b</string>
 					<key>name</key>
 					<string>keyword.other.swift</string>
 				</dict>
